@@ -45,3 +45,75 @@
 .button:hover {
     background: #8a378d; 
 }
+
+#article > span {
+    width: 444px;
+    height: 343px;
+    opacity: 0.35;
+    font-size: 288px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    text-align: center;
+    color: #dbdbdb;
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
+}
+
+#article > h1 {
+    width: 504px;
+    height: 183px;
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 130px;
+}
+
+#article > h2 { 
+    width: 512.4px;
+    height: 90.7px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #adadad;
+}
+
+.send-message {
+    width: 504px;
+    height: 51px;
+    border-radius: 26px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.send-message > i > img {
+    padding-left: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.send-message input {
+    padding: 18px 10px;
+    border:none;
+    width: 353px;
+}
+
+.send-message button {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    background: #488cf5;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.send-message button:hover {
+    background: #f4891f;
+}
